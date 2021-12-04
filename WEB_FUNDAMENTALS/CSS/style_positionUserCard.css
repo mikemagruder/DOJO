@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.card {
+    width: 600px;
+    display: inline-block;
+    margin: 100px;
+    border: lightgrey 5px solid;
+}
+
+.top{
+    background-color: lightseagreen;
+    height: 100px;
+}
+
+.info {
+    background-color: white;
+    height: 300px;
+}
+
+.stuff {
+    padding-top: 60px;
+    padding-left: 20px;
+}
+
+.profile {
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+
+h1 {
+    padding: 5px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+p {
+    padding: 10px;
+}
+
+.map {
+    height: 12px;
+    padding-right: 10px;
+}
+
+.gear {
+    height: 12px;
+    padding-right: 10px;
+}

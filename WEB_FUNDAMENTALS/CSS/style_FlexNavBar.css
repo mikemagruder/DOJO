@@ -1,0 +1,36 @@
+.nav {
+    display: flex;
+    width: 800px;
+    background-color: darkslategrey;
+    color: white;
+    justify-content: space-between;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    color: white;
+    padding-left: 10px;
+}
+
+.active {
+    color: white;
+}
+
+li a {
+    color: white;
+    /* padding: 10px; */
+    padding-left: 10px;
+    justify-content: center;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    border: 5px black solid;
+    padding-left: 10px;
+}
+
+li {
+    style: none;
+}

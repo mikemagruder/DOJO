@@ -1,3 +1,7 @@
+* {
+    border: red 1px solid;
+}
+
 .nav {
     display: flex;
     width: 800px;
@@ -11,6 +15,7 @@
     display: flex;
     color: white;
     padding-left: 10px;
+    align-items: center;
 }
 
 .active {
@@ -31,6 +36,14 @@ li a {
     padding-left: 10px;
 }
 
+li button {
+    padding-left: 20px;
+}
+
 li {
-    style: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }

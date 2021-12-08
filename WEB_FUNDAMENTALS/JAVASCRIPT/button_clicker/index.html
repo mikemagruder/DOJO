@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile Assignment</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <form><input type="text" value="Search..."></form>
+            <button class="btn-blue" onclick="turnOff(this)">Login</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!-- left column -->
+            <div class="column1">
+                <div class="user-card">
+                    <div class="card-body">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h4>plural: ninjas</h4>
+                        <button class="btn-yellow" onClick="alert('Ninja was liked')">13 Likes</button>
+                    </div>
+                    <div class="card-right">
+                        <p>A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="user-card">
+                    <div class="card-body">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <h4>plural: ninjas</h4>
+                        <button class="btn-yellow" onClick="alert('Ninja was liked')">37 Likes</button>
+                    </div>
+                    <div class="card-right">
+                        <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right column -->
+            <div class="column2">
+                <div class="card">
+                    <div class="header">
+                        <h4>Dojonary is defined by YOU</h4>
+                        <button class="btn-green" onclick="document.querySelector('.btn-green').remove()">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

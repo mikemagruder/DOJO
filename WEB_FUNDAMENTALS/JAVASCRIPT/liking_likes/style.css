@@ -1,0 +1,59 @@
+* {
+    /* border: 1px dotted red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+#count {
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px;
+}
+
+button {
+    background-color:goldenrod;
+    box-shadow: 4px 4px 4px #222;
+    height: 30px;
+    width: 50px;
+}
+
+.user-Card {
+    display: inline-block;
+    border: black 5px solid;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.user {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.likes {
+    padding-left: 20px;
+}
+
+.card-Col {
+    width: 500px;
+    display: block;
+}
+
+.row-network {
+    background-color: black;
+    color: white;
+}
+
+.row-user {
+    display: flex;
+    margin: 0 auto;
+}
+
+.some-user {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border: black 5px solid;
+    padding: 20px;
+
+}

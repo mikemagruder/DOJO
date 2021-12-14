@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Succulent Shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <!-- <body onload="alert('This page makes use of cookies, by clicking you agree to the terms outlined in our cookie policy.')"> -->
+    <div class="container">
+            <div>
+                <!-- TOP NAVIGATION LINKS-->
+                <ul class="top-nav-links">
+                    <li><h1>Dojo Weather</h1></li>
+                    <li><a href="#" onclick="alert('Loading your report..')">San Francisco</a></li>
+                    <li><a href="#" onclick="alert('Loading your report..')">Los Angeles</a></li>
+                    <li><a href="#" onclick="alert('Loading your report..')">New York</a></li>
+                </ul>
+            </div>
+        <!-- FIRST ROW CONTENT -->
+        <div class="row">
+            <div class="sub-content">
+                <span>
+                    <h2>San Jose</h2>
+                </span>
+            </div>
+            <div class="sub-content">
+                <form>
+                    <label>Show temperature in </label>
+                    <select name="temperature-scale" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+        <!-- SECOND ROW CONTENT -->
+        <div class="row">
+            <div class="main">
+                <div class="row2">
+                    <div class="img-container">
+                        <h4>Today</h4>
+                        <img src="images/some_sun.png" alt="Aionium" class="img-content">
+                        <p>Some Sun</p>
+                        <span class="high" id="temp1">21</span>
+                    <span class="low" id="temp2">18</span>
+                    </div>
+                    <div class="img-container">
+                        <div>
+                            <h4>Tomorrow</h4>
+                            <img src="images/some_sun.png" alt="Aloe" class="img-content">
+                            <p>Some Sun</p>
+                            <span class="high" id="temp3">18</span>
+                    <span class="low" id="temp4">14</span>
+                        </div>
+                    </div>
+                    <div class="img-container">
+                        <h4>Thursday</h4>
+                        <img src="images/some_clouds.png" alt="Cactus" class="img-content">
+                        <p>Some clouds</p>
+                        <span class="high" id="temp5">22</span>
+                    <span class="low" id="temp6">16</span>
+                    </div>
+                    <div class="img-container">
+                        <h4>Friday</h4>
+                        <img src="images/some_rain.png" alt="Echeveria" class="img-content">
+                        <p>Some rain</p>
+                        <span class="high" id="temp7">21</span>
+                    <span class="low" id="temp8">17</span>
+                    </div>
+                </div>
+                <!-- <div id="advertisement">bottom row</div> -->
+            </div>
+        </div>
+        <div class="alert">
+            <span class="alert-icon"><img src="images/cookie.png" alt="Alert" /></span>
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">I accept</span> 
+            <span><strong>Cookie Time</strong> <br>
+            We use cookies to personalize content and ads, to provide social media features and
+            to analyze our traffic. <a href="#">Read more...</a>.</span>
+          </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

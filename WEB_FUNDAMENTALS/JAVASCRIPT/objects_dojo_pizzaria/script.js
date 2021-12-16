@@ -70,7 +70,9 @@ var toppings = [
 ];
 
 function randomRange(max, min) {
-    return Math.floor(Math.random() * max - min) + min;
+    var randRange = Math.floor(Math.random() * max - min) + min;
+    console.log(randRange);
+    return randRange;
 }
 
 function randomPick(arr) {
